@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+html {
+    padding: 0;
+}
+.inlineMenu{
+    display: inline;
+}
+
+.active {
+    background-color:green !important;
+}
+
+.hidden {
+    display: none;
+}
+
+.panel {  
+    resize: none;
+    border: none;
+    outline: none;
+    border-top: 1.3px solid grey;
+}
+
+.panel:not(:last-child){
+    border-right: 1.3px solid grey;
+}
+
+/*
+@media (max-width: 650px){
+    html {
+        display: none;
+    }
+    body {
+        display: none;
+    }
+}*/
